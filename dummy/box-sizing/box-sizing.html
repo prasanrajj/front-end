@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+        .box {
+            width: 1000px;
+            height: 100px;
+            padding: 20px;
+            border: 10px solid black;
+            margin: 20px;
+            background-color: lightgray;
+            display: flex;
+            justify-content: space-between;
+           gap: 120px;
+        }
+
+        .content-box {
+            box-sizing: content-box;
+            padding: 20px;
+            background-color: lightblue;
+            height: 100px;
+            width: 300px;
+             text-align: center;
+        }
+
+        .border-box {
+            box-sizing: border-box;
+              padding: 20px;
+            background-color: lightgreen;
+            color:red;
+            height: 100px;
+            width: 300px;
+            text-align: center;
+        }
+        
+    </style>
+    
+    
+</head>
+
+<body>
+
+    <div class="box">
+        <div class=" content-box">Content Box</div>
+        <div class=" border-box">Border Box</div>
+    </div>
+
+</body>
+</html>
